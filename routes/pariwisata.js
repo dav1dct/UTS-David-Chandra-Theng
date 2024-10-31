@@ -1,9 +1,8 @@
 var express = require('express');
 var router = express.Router();
 const PariwisataController = require("../controller/pariwisata")
-
+// https://github.com/dav1dct/UTS-David-Chandra-Theng
 /* GET users listing. */
-//format JSON
 router.get('/', function (req, res, next) {
     res.render('index', { title: 'Pariwisata' });
 });
